@@ -450,15 +450,3 @@ api.add_resource(DeleteAssignment, "/delete_assignment")
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=80)
-    # request_data = {"uid": "124", "name": "penis", "surname": "mic", "email": "am@pula.mica", "university": "ubb"}
-    #
-    # cursor = sql_conn.cursor()
-    # cursor.execute('''INSERT INTO Users (id, name, surname, email, university) VALUES (?, ?, ?, ?, ?)''', *request_data.values())
-    # sql_query = pd.read_sql_query("SELECT * FROM Users", sql_conn)
-    # sql_query["code"] = "100"
-    # print(sql_query)
-    # print(sql_query.to_json())
-    # sql_query = pd.read_sql_query("SELECT * FROM Users"
-    #                               " WHERE id = " + "123", sql_conn)
-    # sql_query["code"] = "100"
-    # print(sql_query)
